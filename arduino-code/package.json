@@ -1,0 +1,17 @@
+{
+  "name": "lightsensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "echo compile",
+    "upload:": "echo upload"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.1.0",
+    "serialport": "^10.4.0"
+  }
+}

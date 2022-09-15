@@ -1,0 +1,32 @@
+{
+	"name": "watt-gives",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@types/cookie": "^0.5.1",
+		"eslint": "^8.16.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"svelte": "^3.46.0",
+		"svelte-check": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.0.8"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"cookie": "^0.4.1",
+		"d3-scale": "^4.0.2",
+		"lightweight-charts": "^3.8.0",
+		"svelte-lightweight-charts": "^1.6.3"
+	}
+}
